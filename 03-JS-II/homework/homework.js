@@ -282,7 +282,7 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   var aletras= numero.toString();
-  if ( numero < 1000 && numero> 99)
+  if ( aletras.length ===3 )
   {
     return true;
   }
